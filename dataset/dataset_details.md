@@ -14,9 +14,7 @@ For this Power BI project, only the `Orders` and `Returns` tables were used.
 
 ## Source
 
-This dataset originates from the Tableau Community and is publicly available via Kaggle:
-
-[https://www.kaggle.com/datasets/jessemostipak/sample-superstore](https://www.kaggle.com/datasets/jessemostipak/sample-superstore)
+The dataset used in this project is the Sample Superstore Sales dataset, sourced from the Tableau Community [Sample - Superstore Sales (Excel).xls](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls). 
 
 
 ## Tables Used
