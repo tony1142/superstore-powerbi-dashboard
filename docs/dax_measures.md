@@ -58,6 +58,32 @@ vs PY - % Returned Orders =
 
 ---
 
+## Custom Columns (Date Table)
+
+These calculated columns were added to the `Date Table` to enable accurate grouping and clean labeling.
+
+```dax
+Start of Month = EOMONTH([Date], -1) + 1
+
+Month Year Label = FORMAT('Date Table'[Start of Month], "MMM YYYY")
+```
+
+---
+
+## Date Table Creation
+
+A custom date table was created using DAX to enable consistent year-over-year (YoY) calculations and avoid Power BI’s automatic date hierarchy issues.
+
+```dax
+Date Table = 
+ADDCOLUMNS(
+    CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date])),
+    "Start of Month", EOMONTH([Date], -1) + 1
+)
+```
+
+---
+
 ## Notes
 
 - All measures are stored in a dedicated **Key Measures** table for organization.
