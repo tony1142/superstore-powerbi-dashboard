@@ -16,15 +16,15 @@ The dashboard provides insights into Superstore sales, profit, and return rates 
 4. Click any visual to cross-filter or drill down for deeper analysis.
 
 ## Dataset
-The dataset used is the **Sample Superstore Sales dataset**, sourced from the Tableau Community: [Sample - Superstore Sales (Excel).xls](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls). It includes:
+The dataset used is the **Sample Superstore Sales dataset**, sourced from the Tableau Community: [Sample - Superstore Sales (Excel).xls](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls):
 - **Orders**: Transaction-level sales data (9,994 rows).
 - **Returns**: Returned orders (296 rows).
 
 For detailed dataset structure and transformations, see [dataset_details.md](dataset_details.md).
 
 ## Documentation
-- **DAX Measures**: All custom measures and date table logic are documented in [dax_measures.md](dax_measures.md).
-- **Dataset Details**: Data cleaning, relationships, and design notes are in [dataset_details.md](dataset_details.md).
+- **DAX Measures**: All custom measures and date table logic are documented in [dax_measures.md](docs/dax_measures.md).
+- **Dataset Details**: Data cleaning, relationships, and design notes are in [dataset_details.md](dataset/dataset_details.md).
 
 ## Repository Structure
 - **pbix/**: Power BI file (`Superstore_Analytics_Dashboard.pbix`).
