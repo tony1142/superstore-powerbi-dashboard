@@ -1,38 +1,39 @@
 # Power BI – Superstore Sales Dashboard
 
-This project features an executive-level Power BI dashboard built from Superstore sales data. It highlights regional profitability, product performance, and customer segment trends using KPI visuals, time-series comparisons, and custom Data Analysis Expressions (DAX) measures.
-
-## Portfolio Page
-
-View the full case study and interactive walkthrough here:  
-[Power BI Portfolio Page](https://tonynick.notion.site/Power-BI-Analytics-Dashboard-1c59c67da0d480cdaca4d8bc3d2db77b)
+A Power BI dashboard analyzing Superstore sales data (2014–2017) using custom DAX measures, time intelligence, and interactive visuals. This project demonstrates skills in data modeling, DAX development, and business intelligence reporting.
 
 ## Project Overview
+The dashboard provides insights into Superstore sales, profit, and return rates across regions, products, and customer segments. It features:
+- Custom DAX measures for KPIs (e.g., Sales, Profit, % Returned Orders) and year-over-year comparisons.
+- A custom date table for accurate time intelligence (e.g., `SAMEPERIODLASTYEAR`).
+- Interactive visuals with cross-filtering, drill-downs, and a collapsible slicer panel.
+- Optimized data model using a star schema for performance.
 
-- `.pbix` file: Full Power BI dashboard project  
-- `dataset_details.md`: Dataset structure, source, and transformation steps  
-- `dax_measures.md`: All custom DAX formulas used in the model  
-- `superstore_clean.xlsx`: Cleaned dataset used for the analysis
+## Explore the Dashboard
+1. Download the Power BI file from `pbix/Superstore_Analytics_Dashboard.pbix`.
+2. Open it in Power BI Desktop to interact with the dashboard.
+3. Use the funnel icon to access the slicer panel for filtering by date, region, or segment.
+4. Click any visual to cross-filter or drill down for deeper analysis.
 
-## Key Features
+## Dataset
+The dataset used is the **Sample Superstore Sales dataset**, sourced from the Tableau Community: [Sample - Superstore Sales (Excel).xls](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls). It includes:
+- **Orders**: Transaction-level sales data (9,994 rows).
+- **Returns**: Returned orders (296 rows).
 
-- Executive KPI panel with YoY change indicators
-- Time-series sales chart comparing current vs. prior year
-- Profit by sub-category graph centered at zero
-- Conditional formatting to highlight negative profit
-- Customer segment sales breakdown and drill-down capability
-- Clean, minimal layout optimized for non-technical business users
+For detailed dataset structure and transformations, see [dataset_details.md](dataset_details.md).
+
+## Documentation
+- **DAX Measures**: All custom measures and date table logic are documented in [dax_measures.md](dax_measures.md).
+- **Dataset Details**: Data cleaning, relationships, and design notes are in [dataset_details.md](dataset_details.md).
 
 ## Repository Structure
+- **pbix/**: Power BI file (`Superstore_Analytics_Dashboard.pbix`).
+- **dataset_details.md**: Dataset structure, source, and transformations.
+- **dax_measures.md**: DAX measures and custom date table logic.
+- **docs/**: Additional documentation.
+- **images/**: Icons used for the slicer panel and the portfolio page header.
 
-- `pbix/`: Power BI file  
-- `dataset/`: Cleaned dataset and documentation  
-- `docs/`: DAX measures and supporting notes
+## Portfolio Page
+For a business-focused overview and screenshots of the dashboard, visit my portfolio page: [Power BI Analytics Dashboard](https://tonynick.notion.site/Power-BI-Analytics-Dashboard-1c59c67da0d480cdaca4d8bc3d2db77b).
 
-## Additional Links
-
-- For dataset structure and transformation notes, see the [`dataset_details.md`](dataset/dataset_details.md) file.
-- For DAX calculations and model logic, see the [`dax_measures.md`](docs/dax_measures.md) file.
-- Full project materials are available in this GitHub repository.
-
-Created by Tony Nick
+*Created by Tony Nick*
