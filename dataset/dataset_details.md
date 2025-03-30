@@ -104,10 +104,11 @@ The model design follows a star schema pattern to improve performance, simplify 
 
 ## Data Cleaning & Transformation Notes
 
-- Tables were imported from `Sample - Superstore.xls`
-- Headers were promoted on import
-- Only necessary columns were retained
-- No transformations beyond header promotions, column removal and renaming were performed
+- Tables were imported from `Sample - Superstore.xls` using Power BI’s Power Query Editor.
+- Headers were promoted on import.
+- Only necessary columns were retained using Power Query’s column removal tools (Row ID, Ship Date, Ship Mode, Product ID, etc.).
+- Columns and tables were renamed for clarity.
+- No manual M scripting was required — all transformations were applied using Power Query’s visual interface, which generates M code behind the scenes.
 - Relationships created:
   - `Orders[Order ID]` → `Returns[Order ID]`
   - `Orders[Order Date]` → `Date Table[Date]`
