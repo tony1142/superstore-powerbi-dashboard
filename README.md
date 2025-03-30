@@ -20,7 +20,7 @@ The dataset used is the **Sample Superstore Sales dataset**, sourced from the Ta
 - **Orders**: Transaction-level sales data (9,994 rows).
 - **Returns**: Returned orders (296 rows).
 
-For detailed dataset structure and transformations, see [dataset_details.md](dataset_details.md).
+For detailed dataset structure and transformations, see [dataset_details.md](dataset/dataset_details.md).
 
 ## Documentation
 - **DAX Measures**: All custom measures and date table logic are documented in [dax_measures.md](docs/dax_measures.md).
