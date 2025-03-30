@@ -1,6 +1,6 @@
 # DAX Measures – Superstore Power BI Dashboard
 
-This file contains all custom measures created in the Key Measures table for the Power BI report. These measures support the KPI panel, YoY comparisons, and profitability insights.
+This file contains all custom measures created in the Key Measures table for the Power BI report. These Data Analysis Expression measures support the KPI panel, YoY comparisons, and profitability insights.
 
 ---
 
