@@ -1,6 +1,6 @@
 # Power BI – Superstore Sales Dashboard
 
-This project features an executive-level Power BI dashboard built from Superstore sales data. It highlights regional profitability, product performance, and customer segment trends using KPI visuals, time-series comparisons, and custom DAX measures.
+This project features an executive-level Power BI dashboard built from Superstore sales data. It highlights regional profitability, product performance, and customer segment trends using KPI visuals, time-series comparisons, and custom Data Analysis Expressions (DAX) measures.
 
 ## Portfolio Page
 
