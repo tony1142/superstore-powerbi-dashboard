@@ -31,7 +31,7 @@ For detailed dataset structure and transformations, see [dataset_details.md](dat
 - **dataset_details.md**: Dataset structure, source, and transformations.
 - **dax_measures.md**: DAX measures and custom date table logic.
 - **docs/**: Additional documentation.
-- **images/**: Icons used for the slicer panel and the portfolio page header.
+- **images/**: Icons used for the slicer panel and the portfolio page header and animated gif.
 
 ## Portfolio Page
 For a business-focused overview and screenshots of the dashboard, visit my portfolio page: [Power BI Analytics Dashboard](https://tonynick.notion.site/Power-BI-Analytics-Dashboard-1c59c67da0d480cdaca4d8bc3d2db77b).
