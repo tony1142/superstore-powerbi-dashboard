@@ -35,5 +35,3 @@ For detailed dataset structure and transformations, see [dataset_details.md](dat
 
 ## Portfolio Page
 For a business-focused overview and screenshots of the dashboard, visit my portfolio page: [Power BI Analytics Dashboard](https://tonynick.notion.site/Power-BI-Analytics-Dashboard-1c59c67da0d480cdaca4d8bc3d2db77b).
-
-*Created by Tony Nick*
