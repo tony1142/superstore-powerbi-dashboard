@@ -126,3 +126,5 @@ The model design follows a star schema pattern to improve performance, simplify 
 ## Summary
 
 This dataset was intentionally minimized and cleaned to support a focused set of KPIs and visualizations tied directly to business performance. All enhancements were made with clarity, speed, and practical decision-making in mind.
+
+Special thanks to Ashish Kumar for his Power BI instructional videos (LinkedIn: [Ashish Kumar Jha](https://www.linkedin.com/in/ashish-kumar-jha-2392b0133)).
